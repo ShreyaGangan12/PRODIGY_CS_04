@@ -1,6 +1,7 @@
-from pynput import keyboard
-from datetime import datetime
-import os
+import tkinter as tk
+from tkinter import filedialog
+from PIL import Image, ImageTk
+import numpy as np
 
 # Get the directory where the script is located
 script_directory = os.path.dirname(os.path.abspath(__file__))
